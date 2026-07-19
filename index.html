@@ -51,7 +51,7 @@ Learn the basics of the C23 programming language.
 <pre>
 #include &lt;stdio.h&gt;
 
-int main(void)
+int main()
 {
     printf("Hello, World!\n");
     return 0;
@@ -74,7 +74,7 @@ This program prints a message on the screen.
 <pre>
 #include &lt;stdio.h&gt;
 
-int main(void)
+int main()
 {
     int age = 18;
     double pi = 3.14159;
@@ -100,9 +100,7 @@ Variables store data in memory.
 <h2>Lesson 3: Bool</h2>
 
 <pre>
-#include &lt;stdbool.h&gt;
-
-int main(void)
+int main()
 {
     bool ok = true;
 
@@ -131,7 +129,7 @@ The bool type stores true or false.
 <pre>
 #include &lt;stdio.h&gt;
 
-int main(void)
+int main()
 {
     int numbers[5] = {1, 2, 3, 4, 5};
 
@@ -162,7 +160,7 @@ int add(int a, int b)
     return a + b;
 }
 
-int main(void)
+int main()
 {
     printf("%d\n", add(2, 3));
     return 0;
@@ -186,7 +184,7 @@ Functions allow code reuse.
 <pre>
 #include &lt;stdio.h&gt;
 
-int main(void)
+int main()
 {
     int value = 42;
     int *ptr = &value;
